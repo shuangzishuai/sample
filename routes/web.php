@@ -15,12 +15,7 @@
 //     return view('welcome');
 // });
 
-<<<<<<< HEAD
-Route::get('/', 'StaticPagesController@home');
-Route::get('/help', 'StaticPagesController@help');
-=======
 
 Route::get('/', 'StaticPagesController@home');
 Route::get('help', 'StaticPagesController@help');
->>>>>>> static-pages
 Route::get('/about', 'StaticPagesController@about');
